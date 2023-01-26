@@ -54,3 +54,20 @@ body{
     background-color:black;
     color: white;
 }
+@media screen and (max-width:400px ){
+    .maincard{
+        font-size: 0.5em;
+    }
+}
+@media screen and (max-height:1000px){
+    .maincard{
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-height:700px){
+    .maincard{
+        font-size: 0.5em;
+        max-width: 200px;
+    }
+}
